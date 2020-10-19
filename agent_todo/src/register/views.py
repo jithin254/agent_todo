@@ -3,8 +3,8 @@ from .models import Agent
 from .forms import AgentForm
 # Create your views here.
 
-def product_create_view(request):
-	my_form = RawProductForm()
+def agent_register_view(request):
+	my_form = AgentForm()
 	context = {
 		'form' : my_form	
 	}
